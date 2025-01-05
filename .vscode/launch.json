@@ -1,0 +1,27 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "WeatherApp",
+            "request": "launch",
+            "mainClass": "WeatherApp",
+            "projectName": "WeatherApp"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}",
+            "vmArgs": "--module-path C:/javafx-sdk/lib --add-modules javafx.controls,javafx.fxml-Xbootclasspath/p:C:/Program Files/Java/jdk-23/lib"
+        },
+        {
+            "type": "java",
+            "name": "WeatherApp",
+            "request": "launch",
+            "mainClass": "WeatherApp",
+            "projectName": "WeatherApp_a6864f68",
+            "vmArgs": "--module-path C:/javafx-sdk/lib --add-modules javafx.controls,javafx.fxml-Xbootclasspath/p:C:/Program Files/Java/jdk-23/lib"
+        }
+    ]
+}
